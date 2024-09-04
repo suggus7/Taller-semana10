@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s ease;
+}
+
+#agregar {
+    background: #4CAF50;
+    color: white;
+}
+
+#guardar {
+    background: #2196F3;
+    color: white;
+}
+
+#filterButton, #sortButton {
+    background: #FF9800;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#mostrarListado {
+    margin-top: 20px;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+}
+
+.student-item {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deleteItem {
+    background: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.deleteItem:hover {
+    background: #d32f2f;
+}
